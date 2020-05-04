@@ -1,0 +1,126 @@
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.center2{
+    display: block;
+    margin-right: auto;
+    width: 50%;
+}
+
+a:link, a:visited {
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #006994;
+  color: white;
+  font-size: 25px;
+}
+
+#footer{
+    background: #006994;
+    color: white;
+    padding: 17px;
+    font-size: 15px;
+    position: relative;
+    clear: both;
+    margin-top: 100px;
+    height: 100px.
+}
+
+img {
+
+  /* max-width: 588px; 
+  max-height: 91px;  */
+  width: 100%;
+  height: auto;
+
+}
+
+.bio{
+    text-align: justify;
+    /* padding-left: 400px;
+    padding-right: 400px; */
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;     */
+}
+
+.responsive {
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    /* width: 30%; */
+  }
+
+/* Page Content */
+.content {
+    padding:20px;
+    max-width: 1080px;
+    margin: auto;
+}
+.resume{
+    padding: 20px;
+    text-align: center;
+}
+
+/* contact page form */
+
+form{
+    /* margin-top: 50px; */
+    transition: all .5s ease-in;
+}
+
+.form-control{
+    max-width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input{
+    height: 45px;
+}
+
+form .submit{
+    background: #fff;
+    border-color: #006994;
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover{
+    background-color: #006994;
+    cursor: pointer;
+}
